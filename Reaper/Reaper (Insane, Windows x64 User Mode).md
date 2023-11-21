@@ -4,11 +4,13 @@ Reaper is an Insane level Windows x64 machine for User Mode and Kernel Mode Expl
 
 ## TOC
 [Analyzing the binary](#analyzing-the-binary)
+
 [Reversing](#reversing)
 - [1st option](#1st-option)
 - [2nd options](#2nd-option)
 
-[Leak of an address (String specifiers)[#leak]
+[Leak of an address](#leak-of-an-address)
+
 [Buffer overflow](#buffer-overflow)
 
 In this note I am gonna write about reversing of the dev_keycheck.exe executable file.
@@ -186,7 +188,7 @@ R8 - size of decode key value
 What if we will give a large argument and try to overwrite RIP,  but before let's find mem leak vuln.
 If you remeber, after activating the key, binary will show the name of the key, what if we will give %p or %x string specifiers.
 
-### Leak of an address (String specifiers)
+### Leak of an address
 
 In this binary DEP and ASLR are on, so for bypassing ASLR we need to get a leak.
 
