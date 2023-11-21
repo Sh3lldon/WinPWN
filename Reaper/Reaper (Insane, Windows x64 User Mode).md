@@ -3,7 +3,12 @@ Reaper is an Insane level Windows x64 machine for User Mode and Kernel Mode Expl
 ![Title](/Reaper/Attachments/1.png)
 
 ## TOC
-[analyzing the binary](#analyzing-the-binary)
+[Analyzing the binary](#analyzing-the-binary)
+[Reversing](#reversing)
+- [1st option](#1st-option)
+- [2nd options](#2nd-option)
+[Leak of an address (String specifiers)[#leak-of-an-address-(string-specifiers)
+[Buffer overflow](#buffer-overflow)
 
 In this note I am gonna write about reversing of the dev_keycheck.exe executable file.
 So, this a WinSock custom application, which checks user's key. 
