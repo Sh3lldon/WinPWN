@@ -8,7 +8,7 @@ Reaper is an Insane level Windows x64 machine for User Mode and Kernel Mode Expl
 - [1st option](#1st-option)
 - [2nd options](#2nd-option)
 
-[Leak of an address (String specifiers)[#leak-of-an-address-(string-specifiers)]
+[Leak of an address (String specifiers)[#leak)]
 [Buffer overflow](#buffer-overflow)
 
 In this note I am gonna write about reversing of the dev_keycheck.exe executable file.
