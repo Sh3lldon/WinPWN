@@ -7,7 +7,7 @@ Reaper is an Insane level Windows x64 machine for User Mode and Kernel Mode Expl
 
 [Reversing](#reversing)
 - [1st option](#1st-option)
-- [2nd options](#2nd-option)
+- [2nd option](#2nd-option)
 
 [Leak of an address](#leak-of-an-address)
 
