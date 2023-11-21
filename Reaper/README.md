@@ -227,3 +227,5 @@ I got access violation and the offset is in waaa message, let's understand in wh
 ![40](/Reaper/Attachments/40.png)
 
 So, the offset equals to 88, that is great, we have a lot of place for ROP chain and shellcode.
+
+The next part will be about creating a custom ROP chain to bypass Data Execution Prevention (DEP) and getting a reverse shell.
