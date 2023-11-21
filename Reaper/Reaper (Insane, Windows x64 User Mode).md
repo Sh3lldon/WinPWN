@@ -139,12 +139,15 @@ As you can see, we hit the breakpoint, Let's analyze the parameters and the resu
 About calling convention on Windows x64. The 1st parameter located in ECX, 2nd in EDX, 3rd in E8, 4th in E9, and other will push into the stack with reverse order, for example the last argument will be pushed first because the stack growth to low addresss.
 
 1st parameter (Str or inputKey + 24):
+
 ![25](/Reaper/Attachments/25.png)
 
 2nd parameter (inputLen):
+
 ![26](/Reaper/Attachments/26.png)
 
 3rd parameter (pointer to Size var):
+
 ![27](/Reaper/Attachments/27.png)
 
 So, seem every parameter is OK.
