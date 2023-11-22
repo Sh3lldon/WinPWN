@@ -32,6 +32,7 @@ First thing I always do is checking the binary. I mean the functionality of the 
 The first thing I found after running the binary is it runs on 4141 port.
 
 ![2](/Reaper/Attachments/2.png)
+
 So we have a port, now let's connect and check.
 
 ![3](/Reaper/Attachments/3.png)
@@ -60,14 +61,19 @@ After accepting our connection, the such as printf fuction tells that "Client co
 Yes, we can see that this function like handleConnection fuction (BTW the good practice is renaming function, variables while reversing).
 
 After choosing an option, our input located here:
+
 ![8](/Reaper/Attachments/8.png)
 
 s - socket descriptor
+
 v7 - our input (also, I will rename it for better understanding)
+
 2 - 2 bytes (size)
+
 0 - flags
 
 After that out input will be checked for possible options (1, 2, 3). 
+
 ![9](/Reaper/Attachments/9.png)
 
 ![10](/Reaper/Attachments/10.png)
