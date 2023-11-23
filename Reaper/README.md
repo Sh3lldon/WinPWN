@@ -141,7 +141,7 @@ The base address of the binary is equals to address of ReaperKeyCheck module. Le
 
 ![21](/Reaper/Attachments/21.png)
 
-Also, in the Options -> Generation mark the lines prefix
+Also, in the Options -> General mark the lines prefix
 ![22](/Reaper/Attachments/22.png)
 With that you see the address of the every instruction in disassembly tab.
 
