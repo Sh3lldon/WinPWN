@@ -143,6 +143,7 @@ The base address of the binary is equals to address of ReaperKeyCheck module. Le
 
 Also, in the Options -> General mark the lines prefix
 ![22](/Reaper/Attachments/22.png)
+
 With that you see the address of the every instruction in disassembly tab.
 
 
@@ -155,7 +156,7 @@ Repeate the steps like in the beggining.
 ![24](/Reaper/Attachments/24.png)
 
 As you can see, we hit the breakpoint, Let's analyze the parameters and the results.
-About calling convention on Windows x64. The 1st parameter located in ECX, 2nd in EDX, 3rd in E8, 4th in E9, and other will push into the stack with reverse order, for example the last argument will be pushed first because the stack growth to low addresss.
+About calling convention on Windows x64. The 1st parameter located in ECX, 2nd in EDX, 3rd in E8, 4th in E9, and other will push into the stack in reverse order, for example the last argument will be pushed first because the stack growth to low addresss.
 
 1st parameter (Str or inputKey + 24):
 
